@@ -203,6 +203,8 @@ github.com/huandu/xstrings v1.3.2/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq
 github.com/huandu/xstrings v1.3.3/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
 github.com/huandu/xstrings v1.4.0 h1:D17IlohoQq4UcpqD7fDk80P7l+lwAmlFaBHgOipl2FU=
 github.com/huandu/xstrings v1.4.0/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
+github.com/huxunpei/nomad-autoscaler-tencent v0.1.1 h1:Qo8fQ3eTh7Ap76adE5oH6PeSUPBHtqBNm3/cAg9WuQ8=
+github.com/huxunpei/nomad-autoscaler-tencent v0.1.1/go.mod h1:64Ukj8h3vyRvf6ckHge/j3SPMdmqWUYmIKjzR/dvCb0=
 github.com/imdario/mergo v0.3.11/go.mod h1:jmQim1M+e3UYxmgPu/WyfjB3N3VflVyUjjjwH0dnCYA=
 github.com/imdario/mergo v0.3.13 h1:lFzP57bqS/wsqKssCGmtLAb8A0wKjLGrve2q3PPVcBk=
 github.com/imdario/mergo v0.3.13/go.mod h1:4lJ1jqUDcsbIECGy0RUJAXNIhg+6ocWgb1ALK2O4oXg=
@@ -318,6 +320,13 @@ github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.7.2/go.mod h1:R6va5+xMeoiuVRoj+gSkQ7d3FALtqAAGI1FQKckRals=
 github.com/stretchr/testify v1.12.1 h1:EuwCh5fleGS7H32xRwO3wRGT7DxrDhLAT6FF8MpWDWE=
 github.com/stretchr/testify v1.12.1/go.mod h1:MDEgiDPPsNp5cuIrHPPCyornHKgEVbtFUmoNlxoYthg=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/as v1.3.173 h1:RE8e5YrobUAYSkSEVoaEG8VpMmV2AIa5IwrpX1/ORU8=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/as v1.3.173/go.mod h1:mAb10a2K13kLInbhZXsgnwcxR+0JGD4jFZJlDT8svmY=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.3.173/go.mod h1:r5r4xbfxSaeR04b166HGsBa/R4U3SueirEUpXGuw+Q0=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.3.183 h1:G0vC876Y0PI/E0AaVxRiXsZbaBxv3EBmuK0PUNeFioM=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.3.183/go.mod h1:r5r4xbfxSaeR04b166HGsBa/R4U3SueirEUpXGuw+Q0=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cvm v1.3.183 h1:p9dLY3jEOfhKiyvfvNW7ObsR5+lKODMwz4LRmVeae8Q=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cvm v1.3.183/go.mod h1:6tbUnw0D33C4ULpureBSG/Wmx4IE0xOltvCwHA2cJvc=
 github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926 h1:G3dpKMzFDjgEh2q1Z7zUUtKa8ViPtH+ocF0bE0g00O8=
 github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926/go.mod h1:9ESjWnEqriFuLhtthL60Sar/7RFoluCcXsuvEwTV5KM=
 github.com/youmark/pkcs8 v0.0.0-20240726163527-a2c0da244d78 h1:ilQV1hzziu+LLM3zUTJ0trRztfwgjqKnBWNtSRkbmwM=
