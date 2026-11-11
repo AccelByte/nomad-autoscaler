@@ -67,6 +67,9 @@ const (
 	// InternalTargetOCIInstancePool is the Oracle Cloud Infrastructure Instance Pool
 	// target plugin.
 	InternalTargetOCIInstancePool = "oci-instance-pool"
+
+	// InternalTargetTencentAS is the Tencent Cloud Auto Scaling target plugin.
+	InternalTargetTencentAS = "tencent-as"
 )
 
 // ConfigKeyNomadConfigInherit is a generic plugin config map key that supports

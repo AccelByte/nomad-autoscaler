@@ -98,6 +98,7 @@ require (
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/hashicorp/yamux v0.1.2 // indirect
 	github.com/huandu/xstrings v1.4.0 // indirect
+	github.com/huxunpei/nomad-autoscaler-tencent v0.1.1 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
@@ -121,6 +122,9 @@ require (
 	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/sony/gobreaker/v2 v2.4.0 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/as v1.3.173 // indirect
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.3.183 // indirect
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cvm v1.3.183 // indirect
 	github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20240726163527-a2c0da244d78 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect

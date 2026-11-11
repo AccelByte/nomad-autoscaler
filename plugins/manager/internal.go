@@ -24,6 +24,7 @@ import (
 	ibmcloudIG "github.com/hashicorp/nomad-autoscaler/plugins/builtin/target/ibmcloud-ig/plugin"
 	nomadTarget "github.com/hashicorp/nomad-autoscaler/plugins/builtin/target/nomad/plugin"
 	ociIP "github.com/hashicorp/nomad-autoscaler/plugins/builtin/target/oci-instance-pool/plugin"
+	tencentAS "github.com/hashicorp/nomad-autoscaler/plugins/builtin/target/tencent-as/plugin"
 )
 
 // loadInternalPlugin takes the plugin configuration and attempts to load it
@@ -78,6 +79,9 @@ func (pm *PluginManager) loadInternalPlugin(cfg *config.Plugin, pluginType strin
 	case plugins.InternalTargetOCIInstancePool:
 		info.factory = ociIP.PluginConfig.Factory
 		info.driver = "oci-instance-pool"
+	case plugins.InternalTargetTencentAS:
+		info.factory = tencentAS.PluginConfig.Factory
+		info.driver = "tencent-as"
 	default:
 		pm.logger.Error("unsupported internal plugin", "plugin", cfg.Driver)
 		return
@@ -128,7 +132,8 @@ func (pm *PluginManager) useInternal(plugin string) bool {
 		plugins.InternalAPMDatadog,
 		plugins.InternalAPMInfluxDB,
 		plugins.InternalAPMInstana,
-		plugins.InternalTargetOCIInstancePool:
+		plugins.InternalTargetOCIInstancePool,
+		plugins.InternalTargetTencentAS:
 		return true
 	default:
 		return false
